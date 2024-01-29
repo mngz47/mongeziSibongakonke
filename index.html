@@ -3,14 +3,16 @@
 		<body>
 
 		<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="mobstyle.css">
+			<link rel="stylesheet" href="bootstrap.min.css">
 <script src="api.js" ></script>
 
 <div id=header class="header row" style="rgba(0,0,0,0.2);
 box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 <div class="col-sm-3" >
 <div>
-<a href=https://<?php echo $HOME_; ?>/index.php class="logo logo_start" ></a>
-<a href=https://<?php echo $HOME_; ?>/index.php class="title logo" >Mongezi Sibongakonke</a>
+<a href=index.html class="logo logo_start" ></a>
+<a href=index.html class="title logo" >Mongezi Sibongakonke</a>
 <a href="#" onclick="toggleUpperScroll();return false;" class="toggleUpperScroll highlight" ></a>
 <a href="#" onclick="toggleSignIn();return false;" class="toggleSignIn highlight" ></a>
 </div>
@@ -22,19 +24,16 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
        <input style="width:100%;height:30px;border:0px;padding:4px;" onfocus=s_in(); onblur=s_out(this); type=search onkeyup="search(this.value);" class=" shadow" id=search placeholder="search" />   
     </div>
   <div class=col-sm-6 style="padding-top:25px;font-size:1.2em;">
-<a class=space href=https://<?php echo $HOME_; ?>/products.php >Documentation</a>
+<a class=space href=documentation.html >Documentation</a>
   </div>
 </div>
 
-<?php include (str_replace('\\','/',$_SERVER['DOCUMENT_ROOT']).'/feature/sign/signin_body.php'); ?>
 
 </div>
 <div id=header_right class="col-sm-3">
-<?php include str_replace('\\','/',$_SERVER['DOCUMENT_ROOT']).'/feature/sign/signin_pane.php'; ?>
 </div>
 </div>
-
-			
+		
 <iframe id=tv src="https://mngz47.github.io/F-Snake/" style="width:100%;height:400px;border:2px solid yellow;" ></iframe>
 <div class=row >
 <div style="width:80%;float:left;" >
@@ -204,6 +203,315 @@ function nextVideo(){
 </div><div id=group_four_affiliate_video_dd style="padding:4px;font-size:1.3em;" >Productlists is a tech firm working towards solutions to free the youth. Enjoy our instant game service, product listings and reviews.</div>
 		</div>
 	</div>
+
+    <footer class="kilimanjaro_area">
+            <!-- Top Footer Area Start -->
+            <div class="foo_top_header_one section_padding_100_70">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="kilimanjaro_part">
+                                <h5>About Us</h5>
+                                <p>Automation and instant game specialist.</p>
+                                <p>Avoid the obstacle and make it through the seven stages.</p>
+                            </div>
+                            <div class="kilimanjaro_part m-top-15">
+                                <h5>Social Links</h5>
+                                <ul class="kilimanjaro_social_links">
+                                    <li><a href="https://www.instagram.com/mongezisibongakonke"><i class="fa fa-facebook" aria-hidden="true"></i> Instagram</a></li>
+                                    <li><a href="https://www.youtube.com/sibongakonkemongezi1670"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+                                    <li><a href="https://www.linkedin.com/in/mongezi-mafunda-5a5620108/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="kilimanjaro_part">
+                              
+                            </div>
+
+                            <div class="kilimanjaro_part m-top-15">
+                                <h5>Important Links</h5>
+                                <ul class="kilimanjaro_links">
+                                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms & Conditions</a></li>
+                                   <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Help & Support</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="kilimanjaro_part">
+                         
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="kilimanjaro_part">
+                                <h5>Quick Contact</h5>
+                                <div class="kilimanjaro_single_contact_info">
+                                    <h5>Phone:</h5>
+                                    <p>+27 66 030 2956</p>
+                                </div>
+                                <div class="kilimanjaro_single_contact_info">
+                                    <h5>Email:</h5>
+                                    <p>mngz636@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="kilimanjaro_part">
+                                <h5>Latest Works</h5>
+                                <div class="kilimanjaro_works">
+                                    <a class="kilimanjaro_works_img" href="https://mngz47.github.io/kasi_nametest/"><img src="https://raw.githubusercontent.com/mngz47/productlists-resources/main/services/kasi_nametest.png" alt="Kasi Nametest" title="Kasi Nametest" width="70" ></a>
+                                    <a class="kilimanjaro_works_img" href="https://mngz47.github.io/F-Snake/"><img src="https://raw.githubusercontent.com/mngz47/productlists-resources/main/services/f-snake.png" alt="F Snake"  title="F Snake" width="70" ></a>
+                                    <a class="kilimanjaro_works_img" href="https://mngz47.github.io/cv_engine/"><img src="https://raw.githubusercontent.com/mngz47/productlists-resources/main/services/cv_engine.png" alt="CV Engine" title="CV Engine" width="70"></a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom Area Start -->
+            <div class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>© All Rights Reserved by mngz47</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <style>
+
+            /*********footer*******************/
+            . kilimanjaro_area {
+                position: relative;
+                z-index: 1;
+            }
+
+            .foo_top_header_one {
+                background-color: #15151e;
+                color: #fff;
+            }
+
+            .section_padding_100_70 {
+                padding-top: 100px;
+                padding-bottom: 70px;
+            }
+
+            .foo_top_header_one {
+                color: #fff;
+            }
+
+            .kilimanjaro_part {
+                margin-bottom: 30px;
+            }
+
+            .foo_top_header_one .kilimanjaro_part > h5 {
+                color: #fff;
+            }
+
+            .kilimanjaro_part h4, .kilimanjaro_part h5 {
+                margin-bottom: 30px;
+            }
+
+            .kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p {
+                color: rgba(255,255,255,.5);
+            }
+
+            p, ul li, ol li {
+                font-weight: 300;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .kilimanjaro_bottom_header_one {
+                background-color: #111;
+            }
+
+            .section_padding_50 {
+                padding: 50px 0;
+            }
+
+            .kilimanjaro_bottom_header_one p {
+                color: #fff;
+                margin: 0;
+            }
+
+            p, ul li, ol li {
+                font-weight: 300;
+            }
+
+            .kilimanjaro_bottom_header_one a {
+                color: inherit;
+                font-size: 14px;
+            }
+
+            a, h1, h2, h3, h4, h5, h6 {
+                font-weight: 400;
+            }
+
+            .m-top-15 {
+                margin-top: 15px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .kilimanjaro_widget > li {
+                display: inline-block;
+            }
+
+            p, ul li, ol li {
+                font-weight: 300;
+            }
+
+            ol li, ul li {
+                list-style: outside none none;
+            }
+
+            .kilimanjaro_widget a {
+                border: 1px solid #333;
+                border-radius: 6px;
+                color: #888;
+                display: inline-block;
+                font-size: 13px;
+                margin-bottom: 4px;
+                padding: 7px 12px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .kilimanjaro_links a {
+                border-bottom: 1px solid #333;
+                color: rgba(255,255,255,.5);
+                display: block;
+                font-size: 13px;
+                margin-bottom: 5px;
+                padding-bottom: 10px;
+            }
+
+            .kilimanjaro_links a {
+                color: rgba(255,255,255,.5);
+                font-size: 13px;
+            }
+
+            top-15 {
+                margin-top: 15px;
+            }
+
+            .foo_top_header_one .kilimanjaro_part > h5 {
+                color: #fff;
+            }
+
+            .kilimanjaro_part h4, .kilimanjaro_part h5 {
+                margin-bottom: 30px;
+            }
+
+            .kilimanjaro_social_links > li {
+                display: inline-block;
+            }
+
+            p, ul li, ol li {
+                font-weight: 300;
+            }
+
+            .kilimanjaro_social_links a {
+                border: 1px solid #333;
+                border-radius: 6px;
+                color: #888;
+                display: inline-block;
+                font-size: 13px;
+                margin-bottom: 3px;
+                padding: 7px 12px;
+            }
+
+            .kilimanjaro_blog_area .kilimanjaro_date {
+                color: #27ae60;
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            .kilimanjaro_blog_area > p {
+                color: rgba(255,255,255,.5);
+                line-height: 1.3;
+                margin-bottom: 0;
+            }
+
+            .kilimanjaro_works > a {
+                display: inline-block;
+                float: left;
+                position: relative;
+                width: 33.33333333%;
+                z-index: 1;
+            }
+
+            .kilimanjaro_thumb {
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 75px;
+            }
+
+            .kilimanjaro_links a i {
+                padding-right: 10px;
+            }
+            /* :: 18.0 Footer Area CSS */
+
+            .footer_area {
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer_bottom p > i,
+            .footer_bottom p > a:hover {
+                color: #27ae60;
+            }
+
+            .social_links_area {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 50px 0 30px 0;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+
+                .social_links_area > a:hover {
+                    color: #27ae60;
+                }
+
+            .inline-style .social_links_area > a:hover {
+                background-color: transparent;
+                color: #27ae60;
+                border: 0px solid transparent;
+            }
+
+            .single_feature:hover .feature_text h4 {
+                color: #27ae60;
+            }
+
+            .kilimanjaro_blog_area {
+                border-bottom: 1px solid #333;
+                margin-bottom: 15px;
+                padding: 0 0 15px 90px;
+                position: relative;
+                z-index: 1;
+            }
+
+            .kilimanjaro_links a {
+                border-bottom: 1px solid #333;
+                color: rgba(255,255,255,.5);
+                display: block;
+                font-size: 13px;
+                margin-bottom: 5px;
+                padding-bottom: 10px;
+            }
+        </style>
 			
 		</body>
 	</html>
