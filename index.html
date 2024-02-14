@@ -86,16 +86,34 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 <div class="row" style="display:none;" >
 <div id=services class="col-sm-3" >
 	<img id=cover_image width=100% />
-<a href="https://mngz47.github.io/F-Snake/" >F Snake</a>
-<a href="https://mngz47.github.io/F-Snake/" >F Snake</a>
-<a href="https://mngz47.github.io/F-Snake/" >F Snake</a>
-<a href="https://mngz47.github.io/F-Snake/" >F Snake</a>
-	<a href="https://mngz47.github.io/F-Snake/" >F Snake</a>
+<a href="https://mngz47.github.io/F-Snake/" class=block onclick="service_meta(this);return false;" >F Snake</a>
+<a href="https://mngz47.github.io/pamel_slots/" class=block onclick="service_meta(this);return false;" >Pamel Slots</a>
+<a href="https://mngz47.github.io/kasi_nametest/" class=block onclick="service_meta(this);return false;" >Kasi Nametest</a>
+<a href="https://mngz47.github.io/cv_engine/" class=block onclick="service_meta(this);return false;" >Temp22 CV Engine</a>
+	<a href="https://mngz47.github.io/business_plan_engine/" class=block onclick="service_meta(this);return false;" >Business Plan Engine</a>
 </div>
 <div id=description class="content col-sm-9" >
 	
 </div>
 </div>
+			<script>
+
+				function service_meta(name){
+				var res = sendreq(name.href+"meta.json");
+					res.onload = function(){
+			let jsonData = JSON.parse(res.responseText);
+		
+			e('tv').src = jsonData["run"];
+			e('tv_title').innerHTML = jsonData["title"];
+						e('description').innerHTML = jsonData["description"];
+						e('cover_image').src = jsonData["cover_image"];
+			e('tv_title').href = jsonData["run"];
+						
+					};
+			
+	}
+				
+			</script>
 			
 <div class="row" >
 <div class="content col-sm-9" >
