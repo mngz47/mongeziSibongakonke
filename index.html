@@ -101,14 +101,17 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 				function service_meta(name){
 				var res = sendreq(name.href+"meta.json");
 					res.onload = function(){
-			let jsonData = JSON.parse(res.responseText);
-		
+
+					if(res.responseText){
+						alert(res.responseText);
+							let jsonData = JSON.parse(res.responseText);
+
 			e('tv').src = jsonData["run"];
 			e('tv_title').innerHTML = jsonData["title"];
 						e('description').innerHTML = jsonData["description"];
 						e('cover_image').src = jsonData["cover_image"];
 			e('tv_title').href = jsonData["run"];
-						
+					}	
 					};
 			
 	}
