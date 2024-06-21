@@ -28,37 +28,42 @@
   {"run":"https://mngz47.github.io/games/candy/"},
 {"run":"https://mngz47.github.io/games/circlepath/"},
 {"run":"https://mngz47.github.io/games/eatball/"},
-{"run":"https://mngz47.github.io/tahas-slot-machine/"},
-{"run":"https://mngz47.github.io/SnakesLadders/"},
+{"run":"https://mngz47.github.io/games/eliminate/"},
+{"run":"https://mngz47.github.io/games/fctank/"},
+	
+	{"run":"https://mngz47.github.io/games/flappybird/"},
+{"run":"https://mngz47.github.io/games/flappybird3/"},
+{"run":"https://mngz47.github.io/games/fruit/"},
+{"run":"https://mngz47.github.io/games/fruitwar/"},
+{"run":"https://mngz47.github.io/games/getcockscomb/"},
+  {"run":"https://mngz47.github.io/games/hitball/"},
+{"run":"https://mngz47.github.io/games/hitgraywolf3/"},
+{"run":"https://mngz47.github.io/games/jokingyou/"},
+{"run":"https://mngz47.github.io/games/kite/"},
+{"run":"https://mngz47.github.io/games/knifehit3/"},
+{"run":"https://mngz47.github.io/games/kupao/"},
+{"run":"https://mngz47.github.io/games/legendofwolf/"},
+{"run":"https://mngz47.github.io/games/magicplain/"},
+  {"run":"https://mngz47.github.io/3D-Maze-Game/"},
+{"run":"https://mngz47.github.io/games/maze/"},
+{"run":"https://mngz47.github.io/games/memory/"},
+{"run":"https://mngz47.github.io/games/minorminer/"},
+{"run":"https://mngz47.github.io/games/mota/"},	
 
-<a href="https://mngz47.github.io/games/eliminate/" class=block onclick="service_meta('games/eliminate');return false;" >Eliminate</a>
-<a href="https://mngz47.github.io/games/fctank/" class=block onclick="service_meta('games/fctank');return false;" >FC Tank</a>
-<a href="https://mngz47.github.io/games/flappybird/" class=block onclick="service_meta('games/flappybird');return false;" >Flappy Bird</a>
-<a href="https://mngz47.github.io/games/flappybird3/" class=block onclick="service_meta('games/flappybird');return false;" >Flappy Bird 3</a>
-<a href="https://mngz47.github.io/games/fruit/" class=block onclick="service_meta('games/fruit');return false;" >Fruit Ninja</a>	
-<a href="#" class=block onclick="e('services-3').style.display='';return false;" >More</a>
-</div>
+	  {"run":"https://mngz47.github.io/games/hitball/"},
+{"run":"https://mngz47.github.io/games/hitgraywolf3/"},
+{"run":"https://mngz47.github.io/games/jokingyou/"},
+{"run":"https://mngz47.github.io/games/kite/"},
+{"run":"https://mngz47.github.io/games/knifehit3/"},
+{"run":"https://mngz47.github.io/games/kupao/"},
+{"run":"https://mngz47.github.io/games/legendofwolf/"},
+{"run":"https://mngz47.github.io/games/magicplain/"},
+  {"run":"https://mngz47.github.io/3D-Maze-Game/"},
+{"run":"https://mngz47.github.io/games/maze/"},
+{"run":"https://mngz47.github.io/games/memory/"},
+{"run":"https://mngz47.github.io/games/minorminer/"},
+{"run":"https://mngz47.github.io/games/mota/"},	
 
-	<div id=services-3 style="display:none;" >
-<a href="https://mngz47.github.io/games/fruitwar/" class=block onclick="service_meta('games/fruitwar');return false;" >Fruit War</a>
-<a href="https://mngz47.github.io/games/getcockscomb/" class=block onclick="service_meta('games/getcockscomb');return false;" >Get Cocks Comb</a>
-<a href="https://mngz47.github.io/games/hitball/" class=block onclick="service_meta('games/hitball');return false;" >Hit Ball</a>
-<a href="https://mngz47.github.io/games/hitgraywolf3/" class=block onclick="service_meta('games/hitgraywolf3');return false;" >Hit Gray Wolf</a>
-<a href="https://mngz47.github.io/games/jokingyou/" class=block onclick="service_meta('games/jokingyou');return false;" >Joking You</a>
-<a href="https://mngz47.github.io/games/kite/" class=block onclick="service_meta('games/kite');return false;" >Kite</a>
-<a href="https://mngz47.github.io/games/knifehit3/" class=block onclick="service_meta('games/knifehit3');return false;" >Knife Hit 3</a>
-<a href="https://mngz47.github.io/games/kupao/" class=block onclick="service_meta('games/kupao');return false;" >Kupao</a>
-<a href="https://mngz47.github.io/games/legendofwolf/" class=block onclick="service_meta('games/legendofwolf');return false;" >Legend of Wolf</a>
-<a href="https://mngz47.github.io/games/magicplain/" class=block onclick="service_meta('games/magicplain');return false;" >Magic Plain</a>	
-<a href="#" class=block onclick="e('services-4').style.display='';return false;" >More</a>
-</div>
-
-		<div id=services-4 style="display:none;" >
-<a href="https://mngz47.github.io/3D-Maze-Game/" class=block onclick="service_meta('3D-Maze-Game');return false;" >Maze 3D</a>
-<a href="https://mngz47.github.io/games/maze/" class=block onclick="service_meta('games/maze');return false;" >Maze</a>
-<a href="https://mngz47.github.io/games/memory/" class=block onclick="service_meta('games/memory');return false;" >Memory</a>
-<a href="https://mngz47.github.io/games/minorminer/" class=block onclick="service_meta('games/minorminer');return false;" >Minor Miner</a>
-<a href="https://mngz47.github.io/games/mota/" class=block onclick="service_meta('games/mota');return false;" >Mota</a>
 <a href="https://mngz47.github.io/games/p2ball/" class=block onclick="service_meta('games/p2ball');return false;" >P2 Ball</a>
 <a href="https://mngz47.github.io/games/pacman/" class=block onclick="service_meta('games/pacman');return false;" >Pac Man</a>
 <a href="https://mngz47.github.io/games/petparty/" class=block onclick="service_meta('games/petparty');return false;" >Pet Party</a>
