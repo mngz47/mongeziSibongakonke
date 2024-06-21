@@ -14,7 +14,6 @@
 {"run":"https://mngz47.github.io/Nirvana_Slot_Machine/"},
 {"run":"https://mngz47.github.io/tahas-slot-machine/"},
 {"run":"https://mngz47.github.io/SnakesLadders/"},
-
 {"run":"https://mngz47.github.io/kasi_nametest/"},
 {"run":"https://mngz47.github.io/cv_engine/"},
 {"run":"https://mngz47.github.io/business_plan_engine/"},
@@ -30,8 +29,7 @@
 {"run":"https://mngz47.github.io/games/eatball/"},
 {"run":"https://mngz47.github.io/games/eliminate/"},
 {"run":"https://mngz47.github.io/games/fctank/"},
-	
-	{"run":"https://mngz47.github.io/games/flappybird/"},
+{"run":"https://mngz47.github.io/games/flappybird/"},
 {"run":"https://mngz47.github.io/games/flappybird3/"},
 {"run":"https://mngz47.github.io/games/fruit/"},
 {"run":"https://mngz47.github.io/games/fruitwar/"},
@@ -49,62 +47,30 @@
 {"run":"https://mngz47.github.io/games/memory/"},
 {"run":"https://mngz47.github.io/games/minorminer/"},
 {"run":"https://mngz47.github.io/games/mota/"},	
-
-	  {"run":"https://mngz47.github.io/games/hitball/"},
-{"run":"https://mngz47.github.io/games/hitgraywolf3/"},
-{"run":"https://mngz47.github.io/games/jokingyou/"},
-{"run":"https://mngz47.github.io/games/kite/"},
-{"run":"https://mngz47.github.io/games/knifehit3/"},
-{"run":"https://mngz47.github.io/games/kupao/"},
-{"run":"https://mngz47.github.io/games/legendofwolf/"},
-{"run":"https://mngz47.github.io/games/magicplain/"},
-  {"run":"https://mngz47.github.io/3D-Maze-Game/"},
-{"run":"https://mngz47.github.io/games/maze/"},
-{"run":"https://mngz47.github.io/games/memory/"},
-{"run":"https://mngz47.github.io/games/minorminer/"},
-{"run":"https://mngz47.github.io/games/mota/"},	
-
-<a href="https://mngz47.github.io/games/p2ball/" class=block onclick="service_meta('games/p2ball');return false;" >P2 Ball</a>
-<a href="https://mngz47.github.io/games/pacman/" class=block onclick="service_meta('games/pacman');return false;" >Pac Man</a>
-<a href="https://mngz47.github.io/games/petparty/" class=block onclick="service_meta('games/petparty');return false;" >Pet Party</a>
-<a href="https://mngz47.github.io/games/pixelstar/" class=block onclick="service_meta('games/pixelstar');return false;" >Pixel Star</a>
-<a href="https://mngz47.github.io/games/plane/" class=block onclick="service_meta('games/plane');return false;" >Plane</a>	
-<a href="#" class=block onclick="e('services-5').style.display='';return false;" >More</a>
-</div>
-
-	<div id=services-5 style="display:none;" >
-<a href="https://mngz47.github.io/games/planewar/" class=block onclick="service_meta('games/planewar');return false;" >Plane War</a>
-<a href="https://mngz47.github.io/games/prize/" class=block onclick="service_meta('games/prize');return false;" >Prize Wheel</a>
-<a href="https://mngz47.github.io/games/puzzle/" class=block onclick="service_meta('games/puzzle');return false;" >Puzzle</a>
-<a href="https://mngz47.github.io/games/quickrush3/" class=block onclick="service_meta('games/quickrush3');return false;" >Quick Rush 3</a>
-<a href="https://mngz47.github.io/games/quitsmoke/" class=block onclick="service_meta('games/quitsmoke');return false;" >Quit Smoke</a>
-<a href="https://mngz47.github.io/games/rhythm/" class=block onclick="service_meta('games/rhythm');return false;" >Rhythm</a>
-<a href="https://mngz47.github.io/games/run/" class=block onclick="service_meta('games/run');return false;" >Run</a>
-<a href="https://mngz47.github.io/games/runrobot/" class=block onclick="service_meta('games/runrobot');return false;" >Run Robot</a>
-<a href="https://mngz47.github.io/games/russianblock/" class=block onclick="service_meta('games/russianblock');return false;" >Tetris</a>
-<a href="#" class=block onclick="e('services-6').style.display='';return false;" >More</a>
-</div>
-
-	<div id=services-6 style="display:none;" >
-<a href="https://mngz47.github.io/games/shenjingmao/" class=block onclick="service_meta('games/shenjingmao');return false;" >Shenjingmao</a>
-<a href="https://mngz47.github.io/games/shoot/" class=block onclick="service_meta('games/shoot');return false;" >Shoot</a>
-<a href="https://mngz47.github.io/games/simplechess/" class=block onclick="service_meta('games/simplechess');return false;" >Simplechess</a>
-<a href="https://mngz47.github.io/games/skeletonguard/" class=block onclick="service_meta('games/skeletonguard');return false;" >Skeletonguard</a>
-<a href="https://mngz47.github.io/games/snap/" class=block onclick="service_meta('games/snap');return false;" >Snap</a>
-<a href="https://mngz47.github.io/games/stardog/" class=block onclick="service_meta('games/stardog');return false;" >Stardog</a>
-<a href="https://mngz47.github.io/games/starship/" class=block onclick="service_meta('games/starship');return false;" >Starship</a>
-<a href="https://mngz47.github.io/games/susliks/" class=block onclick="service_meta('games/susliks');return false;" >Susliks</a>
-<a href="https://mngz47.github.io/games/swordart/" class=block onclick="service_meta('games/swordart');return false;" >Swordart</a>
-<a href="https://mngz47.github.io/games/tacit/" class=block onclick="service_meta('games/tacit');return false;" >Tacit</a>	
-<a href="#" class=block onclick="e('services-7').style.display='';return false;" >More</a>
-</div>
-
-	<div id=services-7 style="display:none;" >
-<a href="https://mngz47.github.io/games/tank/" class=block onclick="service_meta('games/tank');return false;" >Tank</a>
-<a href="https://mngz47.github.io/games/timberpig/" class=block onclick="service_meta('games/timberpig');return false;" >Timber Pig</a>
-<a href="https://mngz47.github.io/games/wipeglass/" class=block onclick="service_meta('games/wipeglass');return false;" >Wipe Glass</a>
-</div>
-
-  
-  
+{"run":"https://mngz47.github.io/games/p2ball/"},
+{"run":"https://mngz47.github.io/games/pacman/"},
+{"run":"https://mngz47.github.io/games/petparty/"},
+{"run":"https://mngz47.github.io/games/pixelstar/"},
+{"run":"https://mngz47.github.io/games/plane/"},
+{"run":"https://mngz47.github.io/games/planewar/"},
+{"run":"https://mngz47.github.io/games/prize/"},
+{"run":"https://mngz47.github.io/games/puzzle/"},
+  {"run":"https://mngz47.github.io/games/quickrush3/"},
+{"run":"https://mngz47.github.io/games/rhythm/"},
+{"run":"https://mngz47.github.io/games/run/"},
+{"run":"https://mngz47.github.io/games/runrobot/"},
+{"run":"https://mngz47.github.io/games/russianblock/"},	
+{"run":"https://mngz47.github.io/games/shenjingmao/"},
+{"run":"https://mngz47.github.io/games/shoot/"},
+{"run":"https://mngz47.github.io/games/simplechess/"},
+{"run":"https://mngz47.github.io/games/skeletonguard/"},
+{"run":"https://mngz47.github.io/games/snap/"},
+{"run":"https://mngz47.github.io/games/stardog/"},
+{"run":"https://mngz47.github.io/games/starship/"},
+{"run":"https://mngz47.github.io/games/susliks/"},
+  {"run":"https://mngz47.github.io/games/swordart/"},
+{"run":"https://mngz47.github.io/games/tacit/"},
+{"run":"https://mngz47.github.io/games/tank/"},
+{"run":"https://mngz47.github.io/games/timberpig/"},
+{"run":"https://mngz47.github.io/games/wipeglass/"}
 ]
