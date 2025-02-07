@@ -47,8 +47,10 @@ function search(txt){
 	var g_names =	games[a].getElementsByTagName('a');
 
 	for(var b=0;b<g_names.length;b++){
+
+		var game_name = g_names[b].innerHTML.toLowerCase();
 		
-		if(g_names[b].innerHTML.toLowerCase().includes(txt.toLowerCase())){
+		if(game_name.includes(txt.toLowerCase())){
 
 			e('search_results').appendChild(g_names[b]);
 		}else{
