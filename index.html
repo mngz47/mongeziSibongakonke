@@ -24,13 +24,30 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 </div>
 </div>
 <div class="col-sm-6" >
-    
+    <script>
+
+function search(txt){
+
+var res = sendreq("https://mngz47.github.io/mongeziSibongakonke/game_data.json");
+					res.onload = function(){
+
+					if(res.responseText){
+						alert(res.responseText);
+			let jsonData = JSON.parse(res.responseText);
+		alert(jsonData["run"].length);
+			
+					}	
+					};
+	
+}
+	    
+    </script>
 <div class="upper_scroll row" >
     <div class=col-sm-6 >
        <input style="width:100%;height:30px;border:0px;padding:4px;" onfocus=s_in(); onblur=s_out(this); type=search onkeyup="search(this.value);" class=" shadow" id=search placeholder="search" />   
     </div>
   <div class=col-sm-6 style="padding-top:25px;font-size:1.2em;">
-<a class=space href=/docs >Documentation</a>
+<a class=space href=https://mngz47.github.io/mongeziSibongakonke/docs/ >Documentation</a>
   </div>
 </div>
 
