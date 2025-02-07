@@ -50,7 +50,7 @@ function search(txt){
 
 		var game_name = g_names[b].innerHTML;
 		
-		if(game_name.includes(txt)){
+		if(game_name.includes(txt) || game_name==txt){
 
 			e('search_results').appendChild(g_names[b]);
 		}else{
