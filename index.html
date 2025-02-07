@@ -28,7 +28,7 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 
 function search(txt){
 
-var res = sendreq("https://mngz47.github.io/mongeziSibongakonke/game_data.json");
+/* var res = sendreq("https://mngz47.github.io/mongeziSibongakonke/game_data.json");
 					res.onload = function(){
 
 					if(res.responseText){
@@ -38,13 +38,32 @@ var res = sendreq("https://mngz47.github.io/mongeziSibongakonke/game_data.json")
 			
 					}	
 					};
-	
+	*/
+
+	var games = e('service_data').getElementsByTagName('div');
+
+	for(var a=0;a<games.length;a++){
+
+	var g_names =	games[a].getElementsByTagName('a');
+
+	for(var b=0;b<g_names.length;b++){
+		
+		if(g_names[b].innerHTML.toLowerCase().includes(txt.toLowerCase())){
+
+			e('search_results').appendChild(g_names[b]);
+		}else{
+			e('search_results').innerHTML = '';
+		}
+		
+	}
+	}	
 }
 	    
     </script>
 <div class="upper_scroll row" >
     <div class=col-sm-6 >
        <input style="width:100%;height:30px;border:0px;padding:4px;" onfocus=s_in(); onblur=s_out(this); type=search onkeyup="search(this.value);" class=" shadow" id=search placeholder="search" />   
+    	<div id=search_results style="position:absolute;" ></div>
     </div>
   <div class=col-sm-6 style="padding-top:25px;font-size:1.2em;">
 <a class=space href=https://mngz47.github.io/mongeziSibongakonke/docs/ >Documentation</a>
@@ -106,7 +125,7 @@ var res = sendreq("https://mngz47.github.io/mongeziSibongakonke/game_data.json")
 	
 	</script>
 			
-<div class="row"  >
+<div id=service_data class="row"  >
 <div id=services class="col-sm-3" >
 	<p>
 		<img id=cover_image src="https://mngz47.github.io/productlists-resources/Services.png" onerror="this.onerror=null; this.src='https://mngz47.github.io/productlists-resources/Services.png'" width=150px />
