@@ -48,7 +48,7 @@ function search(txt){
 
 	for(var b=0;b<g_names.length;b++){
 
-		var game_name = g_names[b].innerHTML;
+		var game_name = g_names[b].textContent;//g_names[b].innerHTML;
 		
 		if(game_name.includes(txt) || game_name==txt){
 
