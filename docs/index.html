@@ -7,22 +7,37 @@
 		
 		</head>
 		<body>
-      <h3>Classic Game Wiki</h3>
-         <div style='margin-top:200px;' ><input type=text id=credits placeholder=game /><button onclick='search(e("credits").value);return false;' >search</button></div>
-          <div id=search_results style="position:absolute;" ></div>
+			<script src=https://mngz47.github.io/F-Snake/rr/api.js ></script>
+			
+      <p><h3>Classic Game Wiki</h3>Search and Contribute to the largest classic game wiki directory</p>
+
+  <div style='float:right;' ><input type=text id=credits placeholder=games /><button onclick='search(e("credits").value);return false;' >search</button></div>
+          <div id=search_results style="position:absolute;float:right;" ></div>
 <script>
 
 var search_index = 0;
   
   function search(txt){
 
-    
-    
+   var games =  e('contents').getElementsByTagName('p');
+
+	  if(search_index<games.length){
+		 if(txt.length>4){
+	  if(games[search_index].innerHTML.toLowerCase().includes(txt.toLowerCase())){
+			e('search_results').appendChild(games[search_index]);
+	  }else{
+		  search(txt);
+		  search_index+=1;
+	  }
+	  
+		 } 
+  }else{
+	          search_index=0;
+  }
   }
   
 </script>
-      
-<p>Search and Contribute to the largest classic game wiki directory</p>
+			
       <h5>Table of Contents</h5>
 <br><br>
       <div id=contents >
@@ -31,11 +46,11 @@ var search_index = 0;
 <p>(<a href=https://github.com/mngz47/games/wiki/attackonball >[Attack on ball]</a>) This is a very fun game! Used to play it when I was younger and only remembered it recently. Id love it if this game was updated. Best part about this game is that you can just play offline to pass time. Also a cool feature would be impossible mode where the balls can bounce off one another or something.</p>
 <p>(<a href=https://github.com/mngz47/games/wiki/blockdown >[Block Down]</a>) In Block Down, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the uncleared lines reach the top of the playing field.</p>
 <p>(<a href=https://github.com/mngz47/games/wiki/fallingbottletest >[Falling Bottle Test]</a>) Falling Bottle Challenge invites you to see if you can drop the spinning bottle without shattering it. The spinning bottle whirls between two desks and if you don’t drop it just right, the bottle will shatter and the game will end. The distance from the ground will change, but you still must drop the bottle at just the right time to gain a point. How many bottles can you drop perfectly? How many points will you get? Challenge yourself with this fun game.</p>
-[Break Lovers Shooting Game](https://github.com/mngz47/games/wiki/breakloversshootinggame) <br>
-[Breakout 3](https://github.com/mngz47/games/wiki/breakout3) <br>
-[Monster Wants Candy](https://github.com/mngz47/games/wiki/monsterwantscandy) <br>
-[Circle Path](https://github.com/mngz47/games/wiki/circelpath) <br>
-[Eat Ball](https://github.com/mngz47/games/wiki/eatball) <br>
+<p>(<a href=https://github.com/mngz47/games/wiki/breakloversshootinggame >[Break Lovers Shooting Game]</a>) Break Lovers is an online game that you can play in modern browsers for free. Break Lovers Online is in the category of Shooting. This game has received 12324 plays and 77% of game players have upvoted this game. Break Lovers is made with html5 technology, and it's available on PC and Mobile web. You can play the game free online on your Computer, Android devices, and also on your iPhone and iPad. Break Lovers is an online shooting game. You need to shoot with your mouse more lovers as you can for 25 seconds, and see what is your best score. Enjoy it!</p>
+<p>(<a href=https://github.com/mngz47/games/wiki/breakout3 >[Breakout 3]</a>) With Breakout, a single paddle was used to direct a ball at a wall of colored bricks. Contact made a brick vanish and the ball change speed. The game could never exist in any medium other than video. Breakout is an arcade video game developed and published by Atari, Inc. and released on May 13, 1976. It was designed by Steve Wozniak, based on conceptualization from Nolan Bushnell and Steve Bristow, who were influenced by the seminal 1972 Atari arcade game Pong.</p>
+<p>(<a href=https://github.com/mngz47/games/wiki/monsterwantscandy >[Monster Wants Candy]</a>)  Sweet little Monster loved eating candy with his girl, but evil King kidnapped her. Help our Monster collect enough candy to get her back!</p>
+<p>(<a href=https://github.com/mngz47/games/wiki/circelpath >[Circle Path]</a>) To complete Circle Path, you have to stop the balls in the circles with perfect timing. You only have to touch the screen at the right time; not early not late. And Each Play Game different score and calculate pass each block. HOW TO PLAY: • Touch on screen when block over in circle position • Both are touch in same position so it will next circle comes • Touch top right of screen to Home Screen in game </p>
+<p>(<a href=https://github.com/mngz47/games/wiki/eatball >[Eat Ball]</a>) Control your tiny cell and eat other players to grow larger! But watch out: players bigger than you will be trying to make you their lunch. Survive and eat long enough to become the biggest cell in the game!</p>
 [Eliminate](https://github.com/mngz47/games/wiki/eliminate) <br>
 [FC Tank](https://github.com/mngz47/games/wiki/fctank) <br>
 
