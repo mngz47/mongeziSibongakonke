@@ -137,15 +137,15 @@ function search(txt){
 			var gg = games[menu_index].href.split("/");
 
 			if(games[menu_index].href.includes("games")){
-				serve_menu(gg[gg.length-2]+"/"+gg[gg.length-1]);
+				serve_menu(service_id,gg[gg.length-2]+"/"+gg[gg.length-1]);
 			}else{
-				serve_menu(gg[gg.length-1]);
+				serve_menu(service_id,gg[gg.length-1]);
 			}		
 		}
 		
 				var menu_index = 0;
 				
-				function serve_menu(name){
+				function serve_menu(service_id,name){
 					
 				var res = sendreq(name+"/meta.json");
 					res.onload = function(){
@@ -162,15 +162,12 @@ e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;fo
 
 if(menu_index%8==0){
 		menu_index+=1; 
-		setCookie("menu_index", menu_index, 30);
 }else{
 	if(menu_index<menu.length){
 		menu_index+=1; 
-		setCookie("menu_index", menu_index, 30);
-		serve_menu( menu[menu_index]);
+		body_menu(service_id);
 	}else{
 		menu_index=0;
-		setCookie("menu_index", menu_index, 30);
 	}
 }
 					}
@@ -217,7 +214,7 @@ if(menu_index%8==0){
 <a href="https://mngz47.github.io/games/attackonball/" class=block onclick="service_meta('games/attackonball');return false;" >Attack on Ball</a>
 <a href="https://mngz47.github.io/games/blockdown/" class=block onclick="service_meta('games/blockdown');return false;" >Block Down</a>
 <a href="https://mngz47.github.io/games/bottle3/" class=block onclick="service_meta('games/bottle3');return false;" >Falling Bottle Test</a>
-<a href="#" class=block onclick="e('services-2').style.display='';serve_menu(parent.children[menu_index]);return false;" >More</a>
+<a href="#" class=block onclick="e('services-2').style.display='';body_menu('services');return false;" >More</a>
 
 <div id=services-2 style="display:none;" >
 <a href="https://mngz47.github.io/games/breaklovers/" class=block onclick="service_meta('games/breaklovers');return false;" >Break Lovers Shooting Game</a>
@@ -244,7 +241,7 @@ if(menu_index%8==0){
 <a href="https://mngz47.github.io/games/kupao/" class=block onclick="service_meta('games/kupao');return false;" >Kupao</a>
 <a href="https://mngz47.github.io/games/legendofwolf/" class=block onclick="service_meta('games/legendofwolf');return false;" >Legend of Wolf</a>
 <a href="https://mngz47.github.io/games/magicplain/" class=block onclick="service_meta('games/magicplain');return false;" >Magic Plain</a>	
-<a href="#" class=block onclick="e('services-4').style.display='';return false;" >More</a>
+<a href="#" class=block onclick="e('services-4').style.display='';body_menu('services-3');return false;" >More</a>
 </div>
 
 		<div id=services-4 style="display:none;" >
@@ -258,7 +255,7 @@ if(menu_index%8==0){
 <a href="https://mngz47.github.io/games/petparty/" class=block onclick="service_meta('games/petparty');return false;" >Pet Party</a>
 <a href="https://mngz47.github.io/games/pixelstar/" class=block onclick="service_meta('games/pixelstar');return false;" >Pixel Star</a>
 <a href="https://mngz47.github.io/games/plane/" class=block onclick="service_meta('games/plane');return false;" >Plane</a>	
-<a href="#" class=block onclick="e('services-5').style.display='';return false;" >More</a>
+<a href="#" class=block onclick="e('services-5').style.display='';body_menu('services-4');return false;" >More</a>
 </div>
 
 	<div id=services-5 style="display:none;" >
