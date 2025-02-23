@@ -139,7 +139,7 @@ function search(txt){
 			if(games[menu_index].href.includes("games")){
 				serve_menu(service_id,"games/"+gg[gg.length-2]);
 			}else{
-				serve_menu(service_id,gg[gg.length-2]);
+				serve_menu(service_id,gg[gg.length-1]);
 			}		
 		}
 		
@@ -162,12 +162,14 @@ e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;fo
 
 if(menu_index%8==0){
 		menu_index+=1; 
+		body_menu(service_id);
 }else{
 	if(menu_index<menu.length){
 		menu_index+=1; 
 		body_menu(service_id);
 	}else{
 		menu_index=0;
+		body_menu(service_id);
 	}
 }
 					}
