@@ -160,18 +160,11 @@ e('menu').innerHTML += '<a class=block href='+jsonData["run"]+' style="animation
 e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;font-size:2em; text-decoration: none;" >'+jsonData["title"]+'</a>';
 						}
 
-if(menu_index%8==0){
+	if(menu_index < e(service_id).getElementsByTagName("a").length){
 		menu_index+=1; 
-		body_menu(service_id);
-}else{
-	if(menu_index<menu.length){
-		menu_index+=1; 
-		body_menu(service_id);
-	}else{
-		menu_index=0;
 		body_menu(service_id);
 	}
-}
+
 					}
 					}	
 					};
