@@ -130,12 +130,22 @@ function search(txt){
 	
 	</script>
 	<script>
+		
+		function body_menu(service_id){
+			
+			var games = e(service_id).getElementsByTagName("a");
+			var gg = games[menu_index].href.split("/");
 
+			if(games[menu_index].href.includes("games")){
+				serve_menu(gg[gg.length-2]+"/"+gg[gg.length-1]);
+			}else{
+				serve_menu(gg[gg.length-1]);
+			}		
+		}
+		
 				var menu_index = 0;
 				
 				function serve_menu(name){
-
-				name.href
 					
 				var res = sendreq(name+"/meta.json");
 					res.onload = function(){
@@ -220,7 +230,7 @@ if(menu_index%8==0){
 <a href="https://mngz47.github.io/games/flappybird/" class=block onclick="service_meta('games/flappybird');return false;" >Flappy Bird</a>
 <a href="https://mngz47.github.io/games/flappybird3/" class=block onclick="service_meta('games/flappybird');return false;" >Flappy Bird 3</a>
 <a href="https://mngz47.github.io/games/fruit/" class=block onclick="service_meta('games/fruit');return false;" >Fruit Ninja</a>	
-<a href="#" class=block onclick="e('services-3').style.display='';return false;" >More</a>
+<a href="#" class=block onclick="e('services-3').style.display='';body_menu("services-2");return false;" >More</a>
 </div>
 
 	<div id=services-3 style="display:none;" >
