@@ -137,9 +137,9 @@ function search(txt){
 			var gg = games[menu_index].href.split("/");
 
 			if(games[menu_index].href.includes("games")){
-				serve_menu(service_id,gg[gg.length-2]+"/"+gg[gg.length-1]);
+				serve_menu(service_id,"games/"+gg[gg.length-2]);
 			}else{
-				serve_menu(service_id,gg[gg.length-1]);
+				serve_menu(service_id,gg[gg.length-2]);
 			}		
 		}
 		
