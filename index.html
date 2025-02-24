@@ -296,8 +296,9 @@ e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;fo
 	</div>
 	
 </div>
-<div id=description class="content col-sm-9" style="padding:4px;font-size:1.3em;" >
+<div class="content col-sm-9" style="padding:4px;font-size:1.3em;" >
 
+	<div id=description ></div>
 	<div id=menu ></div>
 	<div id=menu-text ></div>
 
@@ -319,6 +320,8 @@ e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;fo
 			e('tv_title').href = jsonData["run"];
 					}	
 					};
+					
+					body_menu('services-'+Math.floor(Math.random()*6));
 			
 	}
 				
