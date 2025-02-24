@@ -311,7 +311,7 @@ e('menu-text').innerHTML += '<a href='+jsonData["run"]+' style="display:block;fo
 					res.onload = function(){
 
 					if(res.responseText){
-						alert(res.responseText);
+					//	alert(res.responseText);
 			let jsonData = JSON.parse(res.responseText);
 			e('tv').src = jsonData["run"];
 			e('tv_title').innerHTML = jsonData["title"];
