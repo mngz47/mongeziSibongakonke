@@ -157,7 +157,7 @@ function search(txt){
 						if(menu_index%2==0){
 e('menu').innerHTML += '<a class=block href='+jsonData["run"]+' style="animation: 20s slider infinite;" ><img src='+jsonData["cover_image"]+' width=200px />'+jsonData["title"]+'</a>';
 						}else{
-e('menu-text').innerHTML += '<p><a href='+jsonData["run"]+' style="display:block;font-size:2em; text-decoration: none;" >'+jsonData["title"]+'</a>'+jsonData["description"].substring(0,20)+'...</p>';
+e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]+' style="font-size:2em; text-decoration: none;" >'+jsonData["title"]+'</a>'+jsonData["description"]+'...</div>';
 						}
 
 	if(menu_index < e(service_id).getElementsByTagName("a").length){
