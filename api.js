@@ -65,11 +65,12 @@ req.send();
 return req;
 }
 
-function sendreq_nossl(url){
+function sendreq_github_io(url){
 var req = new XMLHttpRequest();
 
 document.domain = window.location.hostname;
-var full_path = "http://"+window.location.hostname+"/"+url;
+
+var full_path = "https://mngz47.github.io/"+url;
 req.open("GET",full_path,true);	
 	
 req.send();
