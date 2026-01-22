@@ -327,7 +327,7 @@ e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]
 			<script>
 
 				function service_meta(name){
-				var res = sendreq(name+"/meta.json");
+				var res = sendreq(name+"game_data.json");
 					res.onload = function(){
 
 					if(res.responseText){
