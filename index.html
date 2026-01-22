@@ -147,7 +147,7 @@ function search(txt){
 				
 				function serve_menu(service_id,name){
 					
-				var res =  sendreq_nossl(name+"/meta.json");
+				var res =  sendreq_github_io(name+"/meta.json");
 					res.onload = function(){
 
 					if(res.responseText){
