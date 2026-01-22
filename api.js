@@ -65,6 +65,17 @@ req.send();
 return req;
 }
 
+function sendreq_nossl(url){
+var req = new XMLHttpRequest();
+
+document.domain = window.location.hostname;
+var full_path = "http://"+window.location.hostname+"/"+url;
+req.open("GET",full_path,true);	
+	
+req.send();
+return req;
+}
+
 function response(r,e){
 r.onload = function(){
 alert(r.responseText);
