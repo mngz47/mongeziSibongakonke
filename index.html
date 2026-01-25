@@ -173,7 +173,7 @@ e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]
 				
 			//	serve_menu(menu[menu_index]);
 			</script>
-<div id=service_data class="row"  >
+<div id=service_data class="row" style="padding:100px;" >
 <div class="col-sm-3" >
 	<p>
 		<img id=cover_image src="https://mngz47.github.io/productlists-resources/Services.png" onerror="this.onerror=null; this.src='https://mngz47.github.io/productlists-resources/Services.png'" width=100% />
@@ -320,23 +320,19 @@ e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]
 	</div>
 	
 </div>
-
-
 	
 	<div id=description ></div>
 	<div id=menu ></div>
 	<div id=menu-text ></div>
 
-	
-
-	<a href="https://mngz47.github.io/machine/" ><p style="padding:50px;text-align:right;" > Machine Menu ></p></a>
+	<a href="https://mngz47.github.io/machine/" style="text-align:right;" class="block" ><p>Machine Menu ></p></a>
 
 </div>
 </div>
 			<script>
 
 				function service_meta(name){
-				var res = sendreq(name+"game_data.json");
+				var res = sendreq(name+"/meta.json");
 					res.onload = function(){
 
 					if(res.responseText){
@@ -439,7 +435,7 @@ e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]
                 </div>
             </div>
         </footer>
-			<link rel="stylesheet" href="footer_tyle.css">
+			<link rel="stylesheet" href="footer_style.css">
 			
 		</body>
 	</html>
