@@ -147,6 +147,10 @@ function search(txt){
 				var menu_index = 0;
 				
 				function serve_menu(service_id,name){
+
+
+					try{
+					
 					
 				var res =  sendreq_github_io(name+"/meta.json");
 					res.onload = function(){
@@ -169,6 +173,17 @@ e('menu-text').innerHTML += '<div style="margin:5px;" ><a href='+jsonData["run"]
 					}
 					}	
 					};
+
+
+					}catch(error){
+
+						var bridge = ne("a");
+						bridge.href = "https://mngz47.github.io/machine/index.html?service="+name;
+						document.body.append(bridge);
+						bridge.click();
+						
+					}
+					
 			
 	}
 				
