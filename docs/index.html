@@ -1,6 +1,6 @@
 <html>
 		<head>
-			<title>Classic Game Wiki</title>
+			<title>Game Wiki</title>
 			 <link rel="shortcut icon" type="image/jpg" href="https://raw.githubusercontent.com/mngz47/productlists-resources/main/p_logo.jpg" />
 <meta name="author" content="@mongezisibongakonke" />
 
@@ -19,7 +19,7 @@ box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.2);" >
 <div class="col-sm-3" >
 <div>
 <a href=index.html class="logo logo_start" ></a>
-<a href=index.html class="title logo" >Classic Game Wiki</a>
+<a href=index.html class="title logo" >Game Wiki</a>
 <a href="#" onclick="toggleUpperScroll();return false;" class="toggleUpperScroll highlight" ></a>
 <a href="#" onclick="toggleSignIn();return false;" class="toggleSignIn highlight" ></a>
 </div>
@@ -102,10 +102,11 @@ var search_index = 0;
 			e('search_results').appendChild(games[search_index]);
 	  }
 		search_index+=1;  
-  }
+  	 }
+		   e('search_results').innerHTML += "<p>Search Complete</p>";
+	   
 	  }  
-	  e('search_results').innerHTML += "<p>Search Complete</p>";
-	    }
+	 }
   
 </script>
 			
