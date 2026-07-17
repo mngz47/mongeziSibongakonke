@@ -13,7 +13,7 @@ Puzzle
 https://mngz47.github.io/mongeziSibongakonke/docs/puzzle.html
 
 Apps
-https://mngz47.github.io/mongeziSibongakonke/docs/apps.html
+https://mngz47.github.io/mongeziSibongakonke/docs/app.html
 
 
 
