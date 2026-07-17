@@ -1,8 +1,22 @@
-# mongeziSibongakonke
-Personal page with slide of instant services
+# Game Wiki
 
-![image](https://github.com/mngz47/mongeziSibongakonke/assets/15697629/b7409046-cd72-474d-81b1-32fe6295693c)
+Search and Contribute to the largest classic game wiki directory
+https://mngz47.github.io/mongeziSibongakonke/docs/
 
-Productlists is a tech firm working towards solutions to free the youth. Enjoy our instant game service, product listings and reviews.
 
+Game Categories
+
+Arcade
+https://mngz47.github.io/mongeziSibongakonke/docs/arcade.html
+
+Puzzle
+https://mngz47.github.io/mongeziSibongakonke/docs/puzzle.html
+
+Apps
+https://mngz47.github.io/mongeziSibongakonke/docs/apps.html
+
+
+
+
+Social
 https://www.instagram.com/mongezisibongakonke/
