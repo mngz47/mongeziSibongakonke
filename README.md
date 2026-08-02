@@ -38,3 +38,5 @@ https://mngz47.github.io/mongeziSibongakonke/docs/casino.html
 
 # Social
 https://www.instagram.com/mongezisibongakonke/
+
+https://mngz47.github.io/productlists-resources/
