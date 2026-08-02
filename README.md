@@ -1,3 +1,6 @@
+<img width="720" height="748" alt="poco_logo" src="https://github.com/user-attachments/assets/5aa1e6db-e400-4f28-8df1-6e2ea3daa909" />
+
+
 # Game Wiki
 
 Search and Contribute to the largest classic game wiki directory
