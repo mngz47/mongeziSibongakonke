@@ -1,5 +1,6 @@
 <img width="720" height="748" alt="poco_logo" src="https://github.com/user-attachments/assets/5aa1e6db-e400-4f28-8df1-6e2ea3daa909" />
 
+https://mngz47.github.io/mongeziSibongakonke/poco_logo.jpg
 
 # Game Wiki
 
