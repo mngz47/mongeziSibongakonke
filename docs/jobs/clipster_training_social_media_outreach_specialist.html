@@ -319,126 +319,81 @@ chat_count = 0;
 					
 <pre>
 
-  
-Limassol, Cyprus
-Working hours: day or night shifts (3 persons in rotation)
+Limassol, Cyprus / Hybrid<br>
+Working hours: 7 days a week - mandatory overtime on holidays<br>
   <br>
-Responsibilities:
-    Monitoring the IT infrastructure: identifying failures in servers, network nodes and critical services
-    Troubleshooting:
-In Windows Server operating systems
-In the Company’s product (Ultency Matching Engine)
-In MetaTrader5 trading servers
-Network outages
-Providing Level 1 technical support to users via the ticketing system 
-Documenting solutions in the knowledge base, escalating complex issues to system administrators and developers.
-Requirements:
-At least 1 year’s experience in IT technical support (or an internship + technical education).
-Windows administration skills:
-OS installation/recovery, working with the Windows Registry
-Understanding of system events (Event Viewer), BSOD diagnostics
-Ability to work with the command line (CMD)
-Basic knowledge of networking technologies:
-Understanding of how the network protocols works
-Ability to analyse issues using ping, tracert, ipconfig
-Willingness to work night/morning shifts
-Analytical mindset: ability to reproduce user/system errors and identify root causes of failures.
-Will be a plus:
-Knowledge of PowerShell and bash scripts
-Knowledge of MetaTrader 5
-Experience with monitoring systems (Zabbix, Grafana)
-What We Offer:
-Competitive compensation package with performance-based incentives.
-Diverse and multicultural environment.
-Friendly, positive, and professional team of experts.
-One of the best Medical Insurance companies.
-All-day kitchen with breakfast, lunch, coffee, snacks, fruits and fresh juices.
-English or Greek learning courses coverage
-Gym at the office
-Private covered parking
+<strong>Responsibilities:</strong><br>
 
-  
+	<ul>
+		<li>60 direct messages on social media (instagram/tiktok)</li>
+		<li>Compile list of responsive high performers</li>
+		<li>Check up mon high performers once a week</li>
+		<li>Providing Level 1 technical support to users via the ticketing system</li>
+		<li>Documenting solutions in the knowledge base, escalating complex issues to system administrators and developers.</li>
+	</ul>
+<strong>Requirements:</strong><br>
+
+	<ul>
+		<li>At least 1 year’s experience in discord/whop moderation (or an internship + technical education).</li>
+		<li>Compile list of responsive high performer</li>
+		<li>Strong interest in clipping</li>
+		<li>Obsessed with top clipper</li>
+		<li>Good in english</li>
+	</ul>
+
+<strong>Will be a plus:</strong><br>		
+
+	<ul>
+		<li>+2k followers on TikTok and IG</li>
+		<li>Experience with google docs and sheets</li>
+	</ul>
+	
+
+<strong>What We Offer:</strong><br>	
+
+		<ul>
+		<li>Competitive compensation package with performance-based incentives.</li>
+		<li>Diverse and multicultural environment.</li>
+		<li>Diverse and multicultural environment.</li>
+		<li>Friendly, positive, and professional team of experts.</li>
+		<li>All-day kitchen with breakfast, lunch, coffee, snacks, fruits and fresh juices.</li>
+		<li>English or Greek learning courses coverage</li>
+		<li>Gym at the office.</li>
+		<li>Private covered parking</li>
+	</ul>
+	
 </pre>
 
-          
-     <h3>Trading Platforms Administrator (Junior/Middle)</h3>     
+ <pre>
+<h3>Outreach take-home assignment</h3>     
+<strong>For three days:</strong><br>		
 
-          <pre>
+	<ul>
+		<li>Search for these keywords: #streamer #clips #kick #twitch #clipper #whop #shortformcontent</li>
+		<li>send 3 direct messages on IG and 2 on TikTok every hour (minimum 60 messages every 24 hours)</li>
+		<li>post viral meme video every hour and tag one of the people you dmed in that hour</li>
+		<li>If you get 60 people onto the server and get one video over 10k views - you will automatically get the job</li>
+		<li>add all the responsive people you dm to the google form [add now]</li>
+		<li>add all the good performing videos to the google form [add now]</li>
+	</ul>
 
-            .NET developer take-home assignment
-Careers
-Description:
-Develop a web application to get user coordinates by their IP address and to get a list of locations by the city name.
-Development tools:
-C#, ASP.NET Core
-MS Visual Studio
-HTML5, CSS3, JavaScript
-Do not use DBMS
-Architecture and source code requirements:
-The web application must be designed and developed for the capacity of 10,000,000 unique users per day and 100,000,000 requests per day.
-The client side should be implemented as a Single Page Application; it should be lightweight and written in JavaScript without using third-party frameworks for SPA.
-The source code must have a uniform style and contain the necessary comments.
-Neatness of the source code will be evaluated alongside the functionality of the application.
-There is no minimum supported browser version requirement for the client code. You can use the features of the latest browser versions (Chrome, Firefox, Edge).
-Platform: Windows 10 or Windows Server 2019.
-The result must not contain *.exe or *.dll files.
-Application technical description:
-The database is stored in the geobase.dat file which is provides in the attached zip. The database will not change; it is read-only.
-The database has a binary format. The file contains:
+<h5>Messages Format (you can edit):</h5> 			
 
-60 bytes - the header
-int   version;       	// database version
-sbyte name[32];          // database name/prefix
-ulong timestamp;     	// database creation time
-int   records;       	// the total number of records
-uint  offset_ranges; 	// offset from the beginning of the file to the beginning of the list of records with geo data
-uint  offset_cities; 	// offset from the beginning of the file to the beginning of the index sorted by city names
-uint  offset_locations;  // offset from the beginning of the file to the beginning of the list of location records
+		Hi
 
-12 bytes * Header.records (number of records) — the list of records with the information about the ranges of IP addresses sorted by ip_from and ip_to fields
-uint ip_from;       	// beginning of the range of IP addresses
-uint ip_to;         	// end of the range of IP addresses
-uint location_index;    // index of the location record
-96 bytes * Header.records (number of records) — the list of records with the information about locations with coordinates (longitude and latitude)
-sbyte country[8];        // country name (random string with the "cou_" prefix)
-sbyte region[12];        // region name (random string with the "reg_" prefix)
-sbyte postal[12];        // postal code (random string with the "pos_" prefix)
-sbyte city[24];          // city name (random string with the "cit_" prefix)
-sbyte organization[32];  // organization name (random string with the "org_" prefix)
-float latitude;          // latitude
-float longitude;     	// longitude
-4 bytes * Header.records (number of records) — the list of location indexes sorted by city name; each index is the address of the record in the file relative to Header.offset_locations
-The whole database is loaded into memory when the application starts.
-The database should be loaded into memory in one thread, without parallelization.
-Database loading time should not exceed 30 ms (reading from SSD).
-Implement fast (binary) search in the loaded database by the IP address and by the exact case sensitive match of the city name.
-Two HTTP API methods must be implemented in the application:
+		We in the same page niche
 
+		We are large team of clippers, Send message on chat for paid Collab on IG 30%
+		(https://discord.gg/hpSBRwWMQ5)
 
-GET /ip/location?ip=123.234.123.234
-GET /city/locations?city=cit_Gbqw4
-Server response to each request must be presented in the JSON format.
+		Use paying audio on you next viral video (https://mngz47.itch.io/clipster-training)
 
-
-The client part must be implemented in the Single Page Application ideology
-The page should consist of two parts: the left part with the screen switching menu and the right part where the selected screen is displayed.
-The client part must implement two screens: search for geo data by IP and search for a list of locations by city name.
-The geo data search screen contains: a field to input the IP address, a Search button and an area to output the result.
-A click on Search send to the server the following request: GET /ip/location?ip=123.234.123.234
-The processed server response is displayed in the result output area.
-The locations search screen contains: city name input field, a Search button and an area to output the result.
-A click on Search send to the server the following request: GET /city/locations?city=cit_Gbqw4
-The processed server response is displayed in the result output area.
-Additionally:
-Initiative beyond the main assignment is welcome
-Any comments on the code are welcome
-Attachments:
-Database file geobase.dat
-
+		#streamer #clips #kick #twitch #clipper #whop #shortformcontent	
             
           </pre>
 
-          
+
+					
      </div>				
 </div>	
 </div>
